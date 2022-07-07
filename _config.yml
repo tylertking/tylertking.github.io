@@ -4,3 +4,4 @@ description: Lilly Chin's personal website ( lillych.in ), student at MIT (Massa
 url: "lillych.in" # the base hostname & protocol for your site
 github_username: ltchin
 markdown: kramdown
+theme: jekyll-theme-minimal
