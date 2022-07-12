@@ -1,0 +1,36 @@
+---
+layout: default
+title: Quantum Computing Projects
+
+research: active
+projects: passive
+
+description: Quantum Computing Projects
+---
+
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+<div class="text-center">
+	<h1>{{page.description}}</h1>
+
+	<img class="img-fluid" src="/img/ModifiedGroverCircuit (1).PNG" height="200">
+	<br>
+	<br>
+	<center><hr width="75%"></center>
+
+	<h4>Paper: <a href="Error_Analysis.pdf">Error Analysis of 3-qubit Standard and Modified Grover’s Algorithms through Noisy Channels</a></h4>
+
+	<p>Unpublished manuscript, completed in summer 2021. </p>
+
+	<b>Abstract:</b> Grover's algorithm, a quantum alternative to classical search algorithms, provides a quadratic speedup to time complexity, running in \( O\sqrt{N} \) compared to the classical alternative's \( O(N) \). This quadratic speed up allows for computational advantages on the same hardware. We start by introducing the math underpinning Grover's algorithm and the quantum circuit necessary to obtain a 110 state with highest probability. Our implementations of Grover's algorithm utilize a single MCT gate along with the "compute-copy-uncompute" method (chained Toffolis with an AND gate). Both scenarios are tested on quantum hardware (\(ibmq\_lima \)) along with substantial simulated noisy results (each trial using one million shots on the (\(qasm\_simulator \)). A set of noisy results results are compared with a t-test to check which technique is more effective along with confirming whether the two techniques are statistically distinct.
+	<center><hr width="50%"></center>
+	<br>
+
+	<h4> Problem sets assigned by Professor Hoffman (UND) over summer 2021. </h4> 
+
+	<p> <a href="Quantum_Circuits_PSET1.pdf">Problem Set #1</a> </p>
+	<p> <a href="Quantum_Circuits_PSET2.pdf">Problem Set #2</a> </p>
+	<p> <a href="Quantum_Circuits_PSET3.pdf">Problem Set #3</a> </p>
+	<br>
+
+</div>
