@@ -1,7 +1,7 @@
 # Site settings
-title: Lilly Chin
-description: Lilly Chin's personal website ( lillych.in ), student at MIT (Massachusetts Institute of Technology) interested in electrical engineering, computer science, mechanical engineering and biomedical engineering
-url: "lillych.in" # the base hostname & protocol for your site
-github_username: ltchin
+title: Tyler King
+description: Tyler King's website
+url: "tylertking.com" # the base hostname & protocol for your site
+github_username: tylertking
 markdown: kramdown
 theme: jekyll-theme-minimal
