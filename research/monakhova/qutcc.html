@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Design of a Swimming Microrobot Powered by a Single Piezoelectric Bender
+title: QUTCC: Quantile Uncertainty Training and Conformal Calibration for Imaging Inverse Problems
 
 research: active
 projects: passive
 
-description:  Design of a Swimming Microrobot Powered by a Single Piezoelectric Bender
+description: QUTCC: Quantile Uncertainty Training and Conformal Calibration for Imaging Inverse Problems
 ---
 <div class="text-center">
 	<h1>{{page.description}}</h1>
@@ -16,13 +16,11 @@ description:  Design of a Swimming Microrobot Powered by a Single Piezoelectric 
 
 	<center><hr width="75%"></center>
 
-	<p><b>Abstract:</b> Countless underwater robots seek to monitor aquatic environments while minimizing their impact on fragile ecosystems. At mm-scales, these systems can be used in a range of waterways, from shallow streams and rivers, to larger ponds and lakes, and navigate around large obstacles or through tight spaces in coral reefs, mangroves, or pipe systems. They can also be more readily used as platforms for biological study, as small-scale robots can more easily be integrated into bench-top characterization systems to verify hydrodynamic performance. Here, we present a new robotic platform, the Daniobot, a 16.5 mm body length (BL) microrobotic fish that is capable of achieving top speeds of 2.84 BL/s. At 23.8 mm total length (TL), Daniobot is, to the best of our knowledge, the smallest fish-inspired robot propelled by onboard actuators. We present the design, fabrication, and assembly of this robot as well as detailed position and velocity results at varying tail amplitudes and frequencies, and compare their trends to a simple analytical model. This design uses a single PZT bimorph actuator operating at 175 V, enabling future untethered experiments.  </p>
+	<p><b>Abstract:</b> Deep learning models often hallucinate, producing realistic artifacts that are not truly present in the sample. This can have dire consequences for scientific and medical inverse problems, such as MRI and microscopy denoising, where accuracy is more important than perceptual quality. Uncertainty quantification techniques, such as conformal prediction, can pinpoint outliers and provide guarantees for image regression tasks, improving reliability. However, existing methods utilize a linear constant scaling factor to calibrate uncertainty bounds, resulting in larger, less informative bounds. We propose QUTCC, a quantile uncertainty training and calibration technique that enables nonlinear, non-uniform scaling of quantile predictions to enable tighter uncertainty estimates. Using a U-Net architecture with a quantile embedding, QUTCC enables the prediction of the full conditional distribution of quantiles for the imaging task. During calibration, QUTCC generates uncertainty bounds by iteratively querying the network for upper and lower quantiles, progressively refining the bounds to obtain a tighter interval that captures the desired coverage. We evaluate our method on several denoising tasks as well as compressive MRI reconstruction. Our method successfully pinpoints hallucinations in image estimates and consistently achieves tighter uncertainty intervals than prior methods while maintaining the same statistical coverage.  </p>
 
-	<h4>Paper: <a href="https://ieeexplore.ieee.org/document/11247311/">Design of a Swimming Microrobot Powered by a Single Piezoelectric Bender</a></h4>
+	<h4>Paper: <a href="https://arxiv.org/abs/2507.14760">QUTCC: Quantile Uncertainty Training and Conformal Calibration for Imaging Inverse Problems</a></h4>
 	
-	
-	<p><a href="https://ieeexplore.ieee.org/document/11247311">Proceedings published in IEEE RSJ. </a> </p>
-	<p><a href="https://www.iros25.org/">Poster presented in IROS, 2025.</a> </p>
+	<p><a href="https://iclr.cc/">Under Review at ICLR, 2026.</a> </p>
 
 
 	<center><hr width="50%"></center>
